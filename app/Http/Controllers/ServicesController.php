@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\services;
 
 class ServicesController extends Controller
 {
@@ -11,15 +12,22 @@ class ServicesController extends Controller
      */
     public function index()
     {
-        //
+        return response()->json(services::all());
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'nom' => 'required|string|max:255',
+            'description' => 'required|string|max:255',
+            'categorie' => 'required|string|max:255',
+        ]);
+
+        $service = services::create($validated);
+        return response()->json($service, 201);
     }
 
     /**
@@ -27,7 +35,7 @@ class ServicesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return $this->create($request);
     }
 
     /**
