@@ -1,0 +1,4 @@
+SEEDER : Pour ajouter les donnees fictif
+
+- php artisan make:seeder NomSeeder (création)
+- php artisan db:seed (execution et ajout des données dans la table)

@@ -1,0 +1,117 @@
+MISE EN PLACE D'UNE API DE GESTION DE SERVICE
+
+Technologie
+1. Laravel
+2. Authentification : Sanctum package pour l'authentification d'API : Authentification via cookie, utilisation de jetons d'API personnel
+
+
+Schema de base de données :
+les differentes parties de table de base de données pour une API qui gére un service global d'une entreprise
+pour un systeme global d'information qui peut interagir avec les ERP, CRM, Application mobile et autres application :
+
+1. Tables universelles
+
+- personne
+      Champs : idPersonne, prenom, nom, sexe, date naissance, lieu naissance, cni
+- utilisateur
+      Champs : idUtilisateur, idPersonne, idRole, mot de passe, email
+- Coordonner
+      Champs : idCoordonner, telephone, email, adresse, ville, pays, codepostal
+
+2. Gestion commerciale
+    Tables :
+        - impots
+           Champs : idImpot,totalht, totalttc, totaltva, remise, modepaiement(carte, mobile money, especes, paypal, virement)
+        - Clients
+           Champs : idClient, idPersonne, idCoordonner, secteuractivite, typeclient(particulier, entreprise, prestataire),
+        - Produits
+           Champs : idProduit, nom, description, prix, qtestock, reference, marque, categorie, poids, image
+        - Commande
+           Champs : idCommande, idClient, idProduit, dateCommande, idImpot, statut(en attente, valider, expedier, annuler, retour), prixunitair, qte
+        - Livraison
+           Champs : idLivraison, idCommande, adresselivraison, adressefacturation, datelivraison, fraislivraison
+        - Facture
+           Champs : idFacture, idCommande, numefacture, etatpaiement(payer, non payer, acompte), datepaiement, note
+        - Devis
+           Champs : idDevis, idClient, numerodevis, datedevis, validation, dateexpiration, statut(en attente, accepter, refuser, expirer), note, totalht, totaltva, totalttc
+        - Fournisseurs
+           Champs : idFournisseurs, idPersonne, adresse,
+        - Achat
+           Champs : idAchat, idFournisseurs, idImpot, statutreception(en attente, recu, partriel, annuler), dateAchat, dateReception, remarque
+3. Ressources Humaines
+    Tables
+         - Poste
+            Champs : idPoste, nom, departement, responsabilite, description
+         - service
+            Champs : idService, nom, description, idResponsable
+         - Responsable
+            Champs : idResponsable, idPersonne
+         - Employer
+            Champs : idEmployer, idPersonne, idPoste, idCoordonner, typeContrat(stage, prestataire, alternance, cdd, cdi, interim), niveauEtude, dateEmbauche, statutactu(actif, inactif), idPaie
+         - paie
+            Champs : idPaie, idEmployer, typesalaire(mensuel, annuel, horaire), montant, salairebrut, salairenet, prime, bonus, retenun netapayer, commentaire
+         - Contrat
+            Champs : idContrat, idEmployer, typeContrat(stage, prestataire, alternance, cdd, cdi, interim), datesignature, datedebut, datefin, idPoste, statutContrat(en cours, terminer suspendu, resilier)
+         - Conges
+            Champs : idConges, idEmployer, typeConges(annuel, malade, materniter, paterniter, deces, fete,exception), datedebut, datefin, statutconges(en attente, approuver, refuser, annuler), datedemande, datevalider, validerpar
+         - presence
+            Champs : idPresence, idEmployer, datetravail, heurearriver, heuredepart, statutpresence(present, absent, retard, conge, teletravail), commentaire
+
+4. Service médical
+    Tables
+        - Dossiermedical
+            Champs : idDossierMedical, idEmployer, idMedecin, idVisite, idConsultation,
+        - VisiteMedical
+            Champs : idVisite, idMedecin, idEmployer, datevisite, typevisite(embauche, periodique, reprise, specifique), aptitude(apte, apte avec restriction, inapt), commentaire, justificatif
+        - Consultation
+            Champs : idConsultation, idEmployer, idMedecin, idBilanMedical, dateConsultation, heure, motif, diagnostic, prescription, documentjoint, commentaire
+        - BilanMedical
+            Champs : idBilanMedical, idEmployer, idMedecin, groupeSanguin, allergies, antecedents, restrictionmedical
+        - Medecin
+            Champs : idMedecin, idPersonne, specialite, typemedecin(interne, externe), hopital, commentaire
+
+        GESTION FINANCIERE
+5. Comptabilite
+        - Compte
+            Champs : idCompte, nomCompte, typeCompte(Actif, passif, charge, produit), classe, parent, actif, commentaire
+        - Ecriture comptable
+            Champs : idEcriture, dateEcriture, idJournaux, numeropiece, libelle, idCompte, debit, credit, idexercice, datesaisie
+        - Budget
+            Champs : idBudget, annees, mois, numeroCompte, montantprevu, commentaire
+        - Depense
+            Champs : idDepense, dateDepense, idFournisseurs, numerofacture, montant, numeroCOmpte, modepaiement, justificatif commentaire
+        - Revenus
+            Champs : idRevenu, dateRevenu, idClient, numerofacture, montant, numeroCompte, modepaiement, justificatif, commentaire
+
+6. Exercice
+        - Exercice
+            champs : idexercice, annees, datadebut, datefin, statut
+        - Compte
+            Champs : idCompte, nom, numero, typeCompte(Actif, passif, charge,),
+        - Journaux
+            Champs : idJournaux, code, nom, typeJournaux(vente, achat, banque)
+
+7. Suivi et Evaluation
+        - Suivi
+            Champs : idSuivi, date, typesuivi(projet, personnel, budget, medical) reference, indicateur(taux avancement, note performance), valeur
+        - Objectif
+            Champs : idObjectif, titre, description, datedebut, datefin, idResponsable, etat(non demarre, en cours, atteint, non atteint), indicateur, valeurcible, valeuractuel, commentaire
+        - Evaluation
+            Champs : idEvaluation, dateevaluation, type(employer, formation, projet), idPersonne, Evaluateur, indicateur, note, commentaire
+        - FeedBack
+            Champs : idFeed, contenu, type(positif, negatif, constructif, neutre), commentaire
+8. Accessibilite et sécurité
+        - Document
+            Champs : idDocument, nom, typedocument(contrat, facture, piece d'identiter, diplome, cv, lettre de motivation), format(pdf, docx, png, jpg), cibletype(employer, client, projet, evaluation, médical), confidentialite(oui, non)
+        - image
+            Champs : idImages, nom, description, intituler
+        - Parametre systeme
+            Champs : idParametre, cle, valeur, description, modifiable(oui, non)
+        - Acces
+            Champs : idAcces, idUtilisateur, actif, desactif
+        - Role
+            Champs : idRole, nomRole, description
+        - Permission
+            Champs : idPermission, idUtilisateur, nompermission, description
+        - RoleUtilisateur
+            Champs : idRoleUse, idPermission, idRole, idUtilisateur

@@ -3,29 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\prestation;
+use App\Models\Pays;
 
-class PrestationsController extends Controller
+class PaysController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return response()->json(Prestation::all());
+        return response()->json(Pays::all());
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create(Request $request)
+    public function create()
     {
-        $validated = $request->validate([
-             'utilisateur_id' => 'required|exists:utilisateurs,id',
-            'service_id' => 'required|exists:services,id',
-        ]);
-        $prestation = Prestation::create($validated);
-        return response()->json($prestation, 201);
+        //
     }
 
     /**
@@ -33,7 +28,7 @@ class PrestationsController extends Controller
      */
     public function store(Request $request)
     {
-        return $this->create($request);
+        //
     }
 
     /**
@@ -41,12 +36,7 @@ class PrestationsController extends Controller
      */
     public function show(string $id)
     {
-        $prestation = Prestation::find($id);
-
-        if(!$prestation){
-            return response()->json(['message' => 'Pas de prestation trouver'], 404);
-        }
-        return response()->json($prestation);
+        //
     }
 
     /**

@@ -29,5 +29,6 @@ class DatabaseSeeder extends Seeder
         $this->call([
             PrestationsSeeder::class,
         ]);
+        $this->call(PaysSeeder::class);
     }
 }

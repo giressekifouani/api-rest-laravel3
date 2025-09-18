@@ -1,0 +1,501 @@
+[
+  {
+    "nom": "Afghanistan",
+    "iso2": "AF",
+    "iso3": "AFG",
+    "capitale": "Kaboul"
+  },
+  {
+    "nom": "Afrique du Sud",
+    "iso2": "ZA",
+    "iso3": "ZAF",
+    "capitale": "Pretoria (administrative), Le Cap (législative), Bloemfontein (judiciaire)"
+  },
+  {
+    "nom": "Albanie",
+    "iso2": "AL",
+    "iso3": "ALB",
+    "capitale": "Tirana"
+  },
+  {
+    "nom": "Algérie",
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "capitale": "Alger"
+  },
+  {
+    "nom": "Allemagne",
+    "iso2": "DE",
+    "iso3": "DEU",
+    "capitale": "Berlin"
+  },
+  {
+    "nom": "Andorre",
+    "iso2": "AD",
+    "iso3": "AND",
+    "capitale": "Andorre-la-Vieille"
+  },
+  {
+    "nom": "Angola",
+    "iso2": "AO",
+    "iso3": "AGO",
+    "capitale": "Luanda"
+  },
+  {
+    "nom": "Antigua-et-Barbuda",
+    "iso2": "AG",
+    "iso3": "ATG",
+    "capitale": "Saint John’s"
+  },
+  {
+    "nom": "Arabie Saoudite",
+    "iso2": "SA",
+    "iso3": "SAU",
+    "capitale": "Riyad"
+  },
+  {
+    "nom": "Argentine",
+    "iso2": "AR",
+    "iso3": "ARG",
+    "capitale": "Buenos Aires"
+  },
+  {
+    "nom": "Arménie",
+    "iso2": "AM",
+    "iso3": "ARM",
+    "capitale": "Erevan"
+  },
+  {
+    "nom": "Australie",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "capitale": "Canberra"
+  },
+  {
+    "nom": "Autriche",
+    "iso2": "AT",
+    "iso3": "AUT",
+    "capitale": "Vienne"
+  },
+  {
+    "nom": "Azerbaïdjan",
+    "iso2": "AZ",
+    "iso3": "AZE",
+    "capitale": "Bakou"
+  },
+  {
+    "nom": "Bahamas",
+    "iso2": "BS",
+    "iso3": "BHS",
+    "capitale": "Nassau"
+  },
+  {
+    "nom": "Bahreïn",
+    "iso2": "BH",
+    "iso3": "BHR",
+    "capitale": "Manama"
+  },
+  {
+    "nom": "Bangladesh",
+    "iso2": "BD",
+    "iso3": "BGD",
+    "capitale": "Dacca"
+  },
+  {
+    "nom": "Barbade",
+    "iso2": "BB",
+    "iso3": "BRB",
+    "capitale": "Bridgetown"
+  },
+  {
+    "nom": "Belgique",
+    "iso2": "BE",
+    "iso3": "BEL",
+    "capitale": "Bruxelles"
+  },
+  {
+    "nom": "Belize",
+    "iso2": "BZ",
+    "iso3": "BLZ",
+    "capitale": "Belmopan"
+  },
+  {
+    "nom": "Bénin",
+    "iso2": "BJ",
+    "iso3": "BEN",
+    "capitale": "Porto-Novo"
+  },
+  {
+    "nom": "Bhoutan",
+    "iso2": "BT",
+    "iso3": "BTN",
+    "capitale": "Thimphou"
+  },
+  {
+    "nom": "Biélorussie",
+    "iso2": "BY",
+    "iso3": "BLR",
+    "capitale": "Minsk"
+  },
+  {
+    "nom": "Birmanie (Myanmar)",
+    "iso2": "MM",
+    "iso3": "MMR",
+    "capitale": "Naypyidaw"
+  },
+  {
+    "nom": "Bolivie",
+    "iso2": "BO",
+    "iso3": "BOL",
+    "capitale": "Sucre (constitutionnelle), La Paz (administrative)"
+  },
+  {
+    "nom": "Bosnie-Herzégovine",
+    "iso2": "BA",
+    "iso3": "BIH",
+    "capitale": "Sarajevo"
+  },
+  {
+    "nom": "Botswana",
+    "iso2": "BW",
+    "iso3": "BWA",
+    "capitale": "Gaborone"
+  },
+  {
+    "nom": "Brésil",
+    "iso2": "BR",
+    "iso3": "BRA",
+    "capitale": "Brasilia"
+  },
+  {
+    "nom": "Brunei",
+    "iso2": "BN",
+    "iso3": "BRN",
+    "capitale": "Bandar Seri Begawan"
+  },
+  {
+    "nom": "Bulgarie",
+    "iso2": "BG",
+    "iso3": "BGR",
+    "capitale": "Sofia"
+  },
+  {
+    "nom": "Burkina Faso",
+    "iso2": "BF",
+    "iso3": "BFA",
+    "capitale": "Ouagadougou"
+  },
+  {
+    "nom": "Burundi",
+    "iso2": "BI",
+    "iso3": "BDI",
+    "capitale": "Gitega"
+  },
+  {
+    "nom": "Cambodge",
+    "iso2": "KH",
+    "iso3": "KHM",
+    "capitale": "Phnom Penh"
+  },
+  {
+    "nom": "Cameroun",
+    "iso2": "CM",
+    "iso3": "CMR",
+    "capitale": "Yaoundé"
+  },
+  {
+    "nom": "Canada",
+    "iso2": "CA",
+    "iso3": "CAN",
+    "capitale": "Ottawa"
+  },
+  {
+    "nom": "Cap-Vert",
+    "iso2": "CV",
+    "iso3": "CPV",
+    "capitale": "Praia"
+  },
+  {
+    "nom": "Chili",
+    "iso2": "CL",
+    "iso3": "CHL",
+    "capitale": "Santiago"
+  },
+  {
+    "nom": "Chine",
+    "iso2": "CN",
+    "iso3": "CHN",
+    "capitale": "Pékin"
+  },
+  {
+    "nom": "Chypre",
+    "iso2": "CY",
+    "iso3": "CYP",
+    "capitale": "Nicosie"
+  },
+  {
+    "nom": "Colombie",
+    "iso2": "CO",
+    "iso3": "COL",
+    "capitale": "Bogotá"
+  },
+  {
+    "nom": "Comores",
+    "iso2": "KM",
+    "iso3": "COM",
+    "capitale": "Moroni"
+  },
+  {
+    "nom": "Congo (RDC)",
+    "iso2": "CD",
+    "iso3": "COD",
+    "capitale": "Kinshasa"
+  },
+  {
+    "nom": "Congo (RC)",
+    "iso2": "CG",
+    "iso3": "COG",
+    "capitale": "Brazzaville"
+  },
+  {
+    "nom": "Corée du Nord",
+    "iso2": "KP",
+    "iso3": "PRK",
+    "capitale": "Pyongyang"
+  },
+  {
+    "nom": "Corée du Sud",
+    "iso2": "KR",
+    "iso3": "KOR",
+    "capitale": "Séoul"
+  },
+  {
+    "nom": "Costa Rica",
+    "iso2": "CR",
+    "iso3": "CRI",
+    "capitale": "San José"
+  },
+  {
+    "nom": "Côte d'Ivoire",
+    "iso2": "CI",
+    "iso3": "CIV",
+    "capitale": "Yamoussoukro (officielle), Abidjan (économique)"
+  },
+  {
+    "nom": "Croatie",
+    "iso2": "HR",
+    "iso3": "HRV",
+    "capitale": "Zagreb"
+  },
+  {
+    "nom": "Cuba",
+    "iso2": "CU",
+    "iso3": "CUB",
+    "capitale": "La Havane"
+  },
+  {
+    "nom": "Danemark",
+    "iso2": "DK",
+    "iso3": "DNK",
+    "capitale": "Copenhague"
+  },
+  {
+    "nom": "Djibouti",
+    "iso2": "DJ",
+    "iso3": "DJI",
+    "capitale": "Djibouti"
+  },
+  {
+    "nom": "Dominique",
+    "iso2": "DM",
+    "iso3": "DMA",
+    "capitale": "Roseau"
+  },
+  {
+    "nom": "Égypte",
+    "iso2": "EG",
+    "iso3": "EGY",
+    "capitale": "Le Caire"
+  },
+  {
+    "nom": "Émirats arabes unis",
+    "iso2": "AE",
+    "iso3": "ARE",
+    "capitale": "Abou Dabi"
+  },
+  {
+    "nom": "Équateur",
+    "iso2": "EC",
+    "iso3": "ECU",
+    "capitale": "Quito"
+  },
+  {
+    "nom": "Érythrée",
+    "iso2": "ER",
+    "iso3": "ERI",
+    "capitale": "Asmara"
+  },
+  {
+    "nom": "Espagne",
+    "iso2": "ES",
+    "iso3": "ESP",
+    "capitale": "Madrid"
+  },
+  {
+    "nom": "Estonie",
+    "iso2": "EE",
+    "iso3": "EST",
+    "capitale": "Tallinn"
+  },
+  {
+    "nom": "Eswatini",
+    "iso2": "SZ",
+    "iso3": "SWZ",
+    "capitale": "Mbabane (administrative), Lobamba (royale et législative)"
+  },
+  {
+    "nom": "États-Unis",
+    "iso2": "US",
+    "iso3": "USA",
+    "capitale": "Washington D.C."
+  },
+  {
+    "nom": "Éthiopie",
+    "iso2": "ET",
+    "iso3": "ETH",
+    "capitale": "Addis-Abeba"
+  },
+
+  { "nom": "Fidji", "iso2": "FJ", "iso3": "FJI", "capitale": "Suva" },
+  { "nom": "Finlande", "iso2": "FI", "iso3": "FIN", "capitale": "Helsinki" },
+  { "nom": "France", "iso2": "FR", "iso3": "FRA", "capitale": "Paris" },
+  { "nom": "Gabon", "iso2": "GA", "iso3": "GAB", "capitale": "Libreville" },
+  { "nom": "Gambie", "iso2": "GM", "iso3": "GMB", "capitale": "Banjul" },
+  { "nom": "Géorgie", "iso2": "GE", "iso3": "GEO", "capitale": "Tbilissi" },
+  { "nom": "Ghana", "iso2": "GH", "iso3": "GHA", "capitale": "Accra" },
+  { "nom": "Grèce", "iso2": "GR", "iso3": "GRC", "capitale": "Athènes" },
+  { "nom": "Grenade", "iso2": "GD", "iso3": "GRD", "capitale": "Saint-Georges" },
+  { "nom": "Guatemala", "iso2": "GT", "iso3": "GTM", "capitale": "Guatemala" },
+  { "nom": "Guinée", "iso2": "GN", "iso3": "GIN", "capitale": "Conakry" },
+  { "nom": "Guinée-Bissau", "iso2": "GW", "iso3": "GNB", "capitale": "Bissau" },
+  { "nom": "Guinée équatoriale", "iso2": "GQ", "iso3": "GNQ", "capitale": "Malabo" },
+  { "nom": "Guyana", "iso2": "GY", "iso3": "GUY", "capitale": "Georgetown" },
+  { "nom": "Haïti", "iso2": "HT", "iso3": "HTI", "capitale": "Port-au-Prince" },
+  { "nom": "Honduras", "iso2": "HN", "iso3": "HND", "capitale": "Tegucigalpa" },
+  { "nom": "Hongrie", "iso2": "HU", "iso3": "HUN", "capitale": "Budapest" },
+  { "nom": "Inde", "iso2": "IN", "iso3": "IND", "capitale": "New Delhi" },
+  { "nom": "Indonésie", "iso2": "ID", "iso3": "IDN", "capitale": "Jakarta" },
+  { "nom": "Irak", "iso2": "IQ", "iso3": "IRQ", "capitale": "Bagdad" },
+  { "nom": "Iran", "iso2": "IR", "iso3": "IRN", "capitale": "Téhéran" },
+  { "nom": "Irlande", "iso2": "IE", "iso3": "IRL", "capitale": "Dublin" },
+  { "nom": "Islande", "iso2": "IS", "iso3": "ISL", "capitale": "Reykjavik" },
+  { "nom": "Israël", "iso2": "IL", "iso3": "ISR", "capitale": "Jérusalem" },
+  { "nom": "Italie", "iso2": "IT", "iso3": "ITA", "capitale": "Rome" },
+  { "nom": "Jamaïque", "iso2": "JM", "iso3": "JAM", "capitale": "Kingston" },
+  { "nom": "Japon", "iso2": "JP", "iso3": "JPN", "capitale": "Tokyo" },
+  { "nom": "Jordanie", "iso2": "JO", "iso3": "JOR", "capitale": "Amman" },
+  { "nom": "Kazakhstan", "iso2": "KZ", "iso3": "KAZ", "capitale": "Noursoultan" },
+  { "nom": "Kenya", "iso2": "KE", "iso3": "KEN", "capitale": "Nairobi" },
+  { "nom": "Kirghizistan", "iso2": "KG", "iso3": "KGZ", "capitale": "Bichkek" },
+  { "nom": "Kiribati", "iso2": "KI", "iso3": "KIR", "capitale": "Tarawa-Sud" },
+  { "nom": "Koweït", "iso2": "KW", "iso3": "KWT", "capitale": "Koweït" },
+  { "nom": "Laos", "iso2": "LA", "iso3": "LAO", "capitale": "Vientiane" },
+  { "nom": "Lettonie", "iso2": "LV", "iso3": "LVA", "capitale": "Riga" },
+  { "nom": "Liban", "iso2": "LB", "iso3": "LBN", "capitale": "Beyrouth" },
+  { "nom": "Libéria", "iso2": "LR", "iso3": "LBR", "capitale": "Monrovia" },
+  { "nom": "Libye", "iso2": "LY", "iso3": "LBY", "capitale": "Tripoli" },
+  { "nom": "Liechtenstein", "iso2": "LI", "iso3": "LIE", "capitale": "Vaduz" },
+  { "nom": "Lituanie", "iso2": "LT", "iso3": "LTU", "capitale": "Vilnius" },
+  { "nom": "Luxembourg", "iso2": "LU", "iso3": "LUX", "capitale": "Luxembourg" },
+
+  { "nom": "Macédoine du Nord", "iso2": "MK", "iso3": "MKD", "capitale": "Skopje" },
+  { "nom": "Madagascar", "iso2": "MG", "iso3": "MDG", "capitale": "Antananarivo" },
+  { "nom": "Malaisie", "iso2": "MY", "iso3": "MYS", "capitale": "Kuala Lumpur" },
+  { "nom": "Malawi", "iso2": "MW", "iso3": "MWI", "capitale": "Lilongwe" },
+  { "nom": "Maldives", "iso2": "MV", "iso3": "MDV", "capitale": "Malé" },
+  { "nom": "Mali", "iso2": "ML", "iso3": "MLI", "capitale": "Bamako" },
+  { "nom": "Malte", "iso2": "MT", "iso3": "MLT", "capitale": "La Valette" },
+  { "nom": "Maroc", "iso2": "MA", "iso3": "MAR", "capitale": "Rabat" },
+  { "nom": "Marshall (Îles)", "iso2": "MH", "iso3": "MHL", "capitale": "Majuro" },
+  { "nom": "Maurice", "iso2": "MU", "iso3": "MUS", "capitale": "Port-Louis" },
+  { "nom": "Mauritanie", "iso2": "MR", "iso3": "MRT", "capitale": "Nouakchott" },
+  { "nom": "Mexique", "iso2": "MX", "iso3": "MEX", "capitale": "Mexico" },
+  { "nom": "Micronésie", "iso2": "FM", "iso3": "FSM", "capitale": "Palikir" },
+  { "nom": "Moldavie", "iso2": "MD", "iso3": "MDA", "capitale": "Chișinău" },
+  { "nom": "Monaco", "iso2": "MC", "iso3": "MCO", "capitale": "Monaco" },
+  { "nom": "Mongolie", "iso2": "MN", "iso3": "MNG", "capitale": "Oulan-Bator" },
+  { "nom": "Monténégro", "iso2": "ME", "iso3": "MNE", "capitale": "Podgorica" },
+  { "nom": "Mozambique", "iso2": "MZ", "iso3": "MOZ", "capitale": "Maputo" },
+  { "nom": "Namibie", "iso2": "NA", "iso3": "NAM", "capitale": "Windhoek" },
+  { "nom": "Nauru", "iso2": "NR", "iso3": "NRU", "capitale": "Yaren" },
+  { "nom": "Népal", "iso2": "NP", "iso3": "NPL", "capitale": "Katmandou" },
+  { "nom": "Nicaragua", "iso2": "NI", "iso3": "NIC", "capitale": "Managua" },
+  { "nom": "Niger", "iso2": "NE", "iso3": "NER", "capitale": "Niamey" },
+  { "nom": "Nigéria", "iso2": "NG", "iso3": "NGA", "capitale": "Abuja" },
+  { "nom": "Norvège", "iso2": "NO", "iso3": "NOR", "capitale": "Oslo" },
+  { "nom": "Nouvelle-Zélande", "iso2": "NZ", "iso3": "NZL", "capitale": "Wellington" },
+  { "nom": "Oman", "iso2": "OM", "iso3": "OMN", "capitale": "Mascate" },
+  { "nom": "Ouganda", "iso2": "UG", "iso3": "UGA", "capitale": "Kampala" },
+  { "nom": "Ouzbékistan", "iso2": "UZ", "iso3": "UZB", "capitale": "Tachkent" },
+  { "nom": "Pakistan", "iso2": "PK", "iso3": "PAK", "capitale": "Islamabad" },
+  { "nom": "Palaos", "iso2": "PW", "iso3": "PLW", "capitale": "Ngerulmud" },
+  { "nom": "Palestine", "iso2": "PS", "iso3": "PSE", "capitale": "Ramallah (administrative), Jérusalem-Est (revendiquée)" },
+  { "nom": "Panama", "iso2": "PA", "iso3": "PAN", "capitale": "Panama" },
+  { "nom": "Papouasie-Nouvelle-Guinée", "iso2": "PG", "iso3": "PNG", "capitale": "Port Moresby" },
+  { "nom": "Paraguay", "iso2": "PY", "iso3": "PRY", "capitale": "Asuncion" },
+  { "nom": "Pays-Bas", "iso2": "NL", "iso3": "NLD", "capitale": "Amsterdam" },
+  { "nom": "Pérou", "iso2": "PE", "iso3": "PER", "capitale": "Lima" },
+  { "nom": "Philippines", "iso2": "PH", "iso3": "PHL", "capitale": "Manille" },
+  { "nom": "Pologne", "iso2": "PL", "iso3": "POL", "capitale": "Varsovie" },
+  { "nom": "Portugal", "iso2": "PT", "iso3": "PRT", "capitale": "Lisbonne" },
+  { "nom": "Qatar", "iso2": "QA", "iso3": "QAT", "capitale": "Doha" },
+  { "nom": "Roumanie", "iso2": "RO", "iso3": "ROU", "capitale": "Bucarest" },
+  { "nom": "Royaume-Uni", "iso2": "GB", "iso3": "GBR", "capitale": "Londres" },
+  { "nom": "Russie", "iso2": "RU", "iso3": "RUS", "capitale": "Moscou" },
+  { "nom": "Rwanda", "iso2": "RW", "iso3": "RWA", "capitale": "Kigali" },
+  { "nom": "Saint-Kitts-et-Nevis", "iso2": "KN", "iso3": "KNA", "capitale": "Basseterre" },
+  { "nom": "Saint-Vincent-et-les-Grenadines", "iso2": "VC", "iso3": "VCT", "capitale": "Kingstown" },
+  { "nom": "Sainte-Lucie", "iso2": "LC", "iso3": "LCA", "capitale": "Castries" },
+  { "nom": "Saint-Marin", "iso2": "SM", "iso3": "SMR", "capitale": "Saint-Marin" },
+  { "nom": "Saint-Siège (Vatican)", "iso2": "VA", "iso3": "VAT", "capitale": "Cité du Vatican" },
+  { "nom": "Salomon (Îles)", "iso2": "SB", "iso3": "SLB", "capitale": "Honiara" },
+  { "nom": "Samoa", "iso2": "WS", "iso3": "WSM", "capitale": "Apia" },
+  { "nom": "Sao Tomé-et-Principe", "iso2": "ST", "iso3": "STP", "capitale": "São Tomé" },
+  { "nom": "Sénégal", "iso2": "SN", "iso3": "SEN", "capitale": "Dakar" },
+  { "nom": "Serbie", "iso2": "RS", "iso3": "SRB", "capitale": "Belgrade" },
+  { "nom": "Seychelles", "iso2": "SC", "iso3": "SYC", "capitale": "Victoria" },
+  { "nom": "Sierra Leone", "iso2": "SL", "iso3": "SLE", "capitale": "Freetown" },
+  { "nom": "Singapour", "iso2": "SG", "iso3": "SGP", "capitale": "Singapour" },
+  { "nom": "Slovaquie", "iso2": "SK", "iso3": "SVK", "capitale": "Bratislava" },
+  { "nom": "Slovénie", "iso2": "SI", "iso3": "SVN", "capitale": "Ljubljana" },
+  { "nom": "Somalie", "iso2": "SO", "iso3": "SOM", "capitale": "Mogadiscio" },
+  { "nom": "Soudan", "iso2": "SD", "iso3": "SDN", "capitale": "Khartoum" },
+  { "nom": "Soudan du Sud", "iso2": "SS", "iso3": "SSD", "capitale": "Djouba" },
+  { "nom": "Sri Lanka", "iso2": "LK", "iso3": "LKA", "capitale": "Sri Jayawardenepura Kotte" },
+  { "nom": "Suède", "iso2": "SE", "iso3": "SWE", "capitale": "Stockholm" },
+  { "nom": "Suisse", "iso2": "CH", "iso3": "CHE", "capitale": "Berne" },
+  { "nom": "Suriname", "iso2": "SR", "iso3": "SUR", "capitale": "Paramaribo" },
+  { "nom": "Syrie", "iso2": "SY", "iso3": "SYR", "capitale": "Damas" },
+  { "nom": "Tadjikistan", "iso2": "TJ", "iso3": "TJK", "capitale": "Douchanbé" },
+  { "nom": "Tanzanie", "iso2": "TZ", "iso3": "TZA", "capitale": "Dodoma" },
+  { "nom": "Tchad", "iso2": "TD", "iso3": "TCD", "capitale": "N’Djaména" },
+  { "nom": "République tchèque", "iso2": "CZ", "iso3": "CZE", "capitale": "Prague" },
+  { "nom": "Thaïlande", "iso2": "TH", "iso3": "THA", "capitale": "Bangkok" },
+  { "nom": "Timor oriental", "iso2": "TL", "iso3": "TLS", "capitale": "Dili" },
+  { "nom": "Togo", "iso2": "TG", "iso3": "TGO", "capitale": "Lomé" },
+  { "nom": "Tonga", "iso2": "TO", "iso3": "TON", "capitale": "Nukuʻalofa" },
+  { "nom": "Trinité-et-Tobago", "iso2": "TT", "iso3": "TTO", "capitale": "Port-d’Espagne" },
+  { "nom": "Tunisie", "iso2": "TN", "iso3": "TUN", "capitale": "Tunis" },
+  { "nom": "Turkménistan", "iso2": "TM", "iso3": "TKM", "capitale": "Achgabat" },
+  { "nom": "Turquie", "iso2": "TR", "iso3": "TUR", "capitale": "Ankara" },
+  { "nom": "Tuvalu", "iso2": "TV", "iso3": "TUV", "capitale": "Funafuti" },
+  { "nom": "Ukraine", "iso2": "UA", "iso3": "UKR", "capitale": "Kyiv" },
+  { "nom": "Uruguay", "iso2": "UY", "iso3": "URY", "capitale": "Montevideo" },
+  { "nom": "Vanuatu", "iso2": "VU", "iso3": "VUT", "capitale": "Port-Vila" },
+  { "nom": "Venezuela", "iso2": "VE", "iso3": "VEN", "capitale": "Caracas" },
+  { "nom": "Vietnam", "iso2": "VN", "iso3": "VNM", "capitale": "Hanoï" },
+  { "nom": "Yémen", "iso2": "YE", "iso3": "YEM", "capitale": "Sanaa" },
+  { "nom": "Zambie", "iso2": "ZM", "iso3": "ZMB", "capitale": "Lusaka" },
+  { "nom": "Zimbabwe", "iso2": "ZW", "iso3": "ZWE", "capitale": "Harare" }
+
+]

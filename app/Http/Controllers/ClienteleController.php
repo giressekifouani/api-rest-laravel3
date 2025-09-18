@@ -3,16 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\prestation;
+use App\Models\clientele;
 
-class PrestationsController extends Controller
+class ClienteleController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return response()->json(Prestation::all());
+        return response()->json(Clientele::all());
     }
 
     /**
@@ -21,11 +21,13 @@ class PrestationsController extends Controller
     public function create(Request $request)
     {
         $validated = $request->validate([
-             'utilisateur_id' => 'required|exists:utilisateurs,id',
-            'service_id' => 'required|exists:services,id',
+            'idpersonne' => 'required|exists:personnes,id',
+            'idcoordonnees' => 'required|exists:coordonnees,id',
+            'secteuractivite' => 'required|string|max:100',
+            'typeclient' => 'required|string|max:100',
         ]);
-        $prestation = Prestation::create($validated);
-        return response()->json($prestation, 201);
+        $clientele = Clientele::create($validated);
+        return response()->json($clientele, 201);
     }
 
     /**
@@ -41,12 +43,11 @@ class PrestationsController extends Controller
      */
     public function show(string $id)
     {
-        $prestation = Prestation::find($id);
-
-        if(!$prestation){
-            return response()->json(['message' => 'Pas de prestation trouver'], 404);
+        $clientele = Clientele::find($id);
+        if(!$clientele){
+            return response()->json(['message' => 'client non trouver'], 404);
         }
-        return response()->json($prestation);
+        return response()->json($clientele);
     }
 
     /**
